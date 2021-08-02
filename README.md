@@ -28,3 +28,20 @@ mvn clean install assembly:single
 ```shell
 java -jar target/formatter.jar
 ```
+
+### Run jacoco report
+```shell
+mvn jacoco:report
+```
+
+### Run coverage code
+```shell
+mvn clean verify
+```
+
+### Improvements
+- Addition on justify and hard
+- by wording based alignment instead of characters
+- increase code coverage with integration and unit test
+- sonarlint and code coverage report to be added and work
+- code coverage check failure to fail build
